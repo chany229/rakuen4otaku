@@ -37,4 +37,4 @@ Padrino.mount('Rakuen4otaku::Main', :app_file => Padrino.root('app/app.rb')).to(
 
 Padrino.mount('Rakuen4otaku::Charasdepot', :app_file => Padrino.root('charasdepot/app.rb')).to('/charasdepot')
 Padrino.mount("Rakuen4otaku::Admin", :app_file => File.expand_path('../../admin/app.rb', __FILE__)).to("/admin")
-Padrino.mount('Rakuen4otaku::Dame09p', :app_file => Padrino.root('dame09p/app.rb')).to('/dame09p')
+Padrino.mount('Rakuen4otaku::Dame09plus', :app_file => Padrino.root('dame09plus/app.rb')).to('/dame09plus')

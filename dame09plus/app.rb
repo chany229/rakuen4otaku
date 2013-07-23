@@ -1,5 +1,5 @@
 module Rakuen4otaku
-  class Dame09p < Padrino::Application
+  class Dame09plus < Padrino::Application
     register Padrino::Rendering
     register Padrino::Mailer
     register Padrino::Helpers
