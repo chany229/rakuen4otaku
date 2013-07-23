@@ -1,0 +1,9 @@
+---
+:orm: mongoid
+:test: rspec
+:mock: mocha
+:script: jquery
+:renderer: erb
+:stylesheet: scss
+:namespace: Rakuen4otaku
+:migration_format: number
