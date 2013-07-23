@@ -7,9 +7,9 @@ module Rakuen4otaku
 
     enable :sessions
 
-get "/" do
-render "index.erb"
-end
+    get "/" do
+        render "index.erb"
+    end
     ##
     # Caching support
     #
