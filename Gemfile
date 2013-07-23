@@ -14,6 +14,7 @@ source 'https://rubygems.org'
 gem 'rake'
 
 # Component requirements
+gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'sass'
 gem 'erubis', '~> 2.7.0'
 gem 'mongoid', '~>3.0.0'
@@ -33,3 +34,5 @@ gem 'padrino', '0.11.2'
 # %w(core gen helpers cache mailer admin).each do |g|
 #   gem 'padrino-' + g, '0.11.2'
 # end
+
+#gem 'kaminari'#, :require => 'kaminari/sinatra'

@@ -36,3 +36,4 @@ end
 Padrino.mount('Rakuen4otaku::Main', :app_file => Padrino.root('app/app.rb')).to('/')
 
 Padrino.mount('Rakuen4otaku::Charasdepot', :app_file => Padrino.root('charasdepot/app.rb')).to('/charasdepot')
+Padrino.mount("Rakuen4otaku::Admin", :app_file => File.expand_path('../../admin/app.rb', __FILE__)).to("/admin")
