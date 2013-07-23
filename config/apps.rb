@@ -34,3 +34,5 @@ end
 
 # Mounts the core application for this project
 Padrino.mount('Rakuen4otaku::Main', :app_file => Padrino.root('app/app.rb')).to('/')
+
+Padrino.mount('Rakuen4otaku::Charasdepot', :app_file => Padrino.root('charasdepot/app.rb')).to('/charasdepot')
