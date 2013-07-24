@@ -20,7 +20,7 @@ Rakuen4otaku::Dame09plus.controllers :public do
   # end
   
   get :index, :map => '/' do
-    render :text => "lalala"
+    render "index"
   end
 
 end
