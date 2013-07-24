@@ -19,8 +19,8 @@ Rakuen4otaku::Dame09plus.controllers :public do
   #   'Hello world!'
   # end
   
-  get :index do
-
+  get :index, :map => '/' do
+    render :text => "lalala"
   end
 
 end
